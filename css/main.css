@@ -125,7 +125,7 @@ footer {
   text-align: center;
 }
 
-input[type=checkbox]:checked + label {
+label input[type=checkbox]:checked {
   text-decoration: line-through;
 }
 
