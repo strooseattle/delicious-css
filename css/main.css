@@ -6,8 +6,13 @@
   float: right;
   padding-top: 40px;
 }
+
 .banner li {
   display: inline;
+}
+
+.banner li:nth-of-type(6) {
+  padding-right: 10px;
 }
 
 .logo img {
@@ -62,9 +67,6 @@
   width: 100%;
 }
 
-
-
-
 .recipe-instructions {
   font-family: 'Halant', serif;
   text-indent: 3.0rem;
@@ -73,7 +75,6 @@
 .recipe-ingredients {
   background-image: url('http://i.imgur.com/Tbl1pWm.png');
   background-color: #FFFFE5;
-  margin-bottom: 5.0rem;
   font-family: 'Coming Soon', cursive;
 }
 
@@ -125,8 +126,16 @@ footer {
   text-align: center;
 }
 
-label input[type=checkbox]:checked {
+input[type=checkbox]:checked + label{
   text-decoration: line-through;
+}
+
+input[type=checkbox] + label {
+  text-decoration: none;
+}
+
+.recipe-ingredients ul li {
+  text-decoration: none;
 }
 
 
