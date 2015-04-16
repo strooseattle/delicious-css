@@ -1,0 +1,99 @@
+/*BANNER MODULE*/
+
+.banner li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.banner li:nth-of-type(6) {
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 50px;
+}
+
+.logo h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 10px;
+  color: gray;
+}
+
+/*RECIPE HEADER MODULE*/
+
+.recipe-header {
+  margin-top: 35px;
+  border-top: 15px solid;
+  border-image: url(https://files.slack.com/files-pri/T039KG69K-F04B91DDD/dash-border.png) 35 23 27 26 fill repeat stretch;
+}
+
+.recipe-header h1 {
+  font-size: 42px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.recipe-header p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: gray;
+  margin-top: 0px;
+}
+
+.print {
+  margin-top: 55px;
+}
+
+/*RECIPE PICTURE & INSTRUCTIONS MODULES*/
+
+.food-pic {
+  width: 100%;
+}
+
+.recipe-instructions {
+  font-family: 'Droid Serif', serif;
+  text-indent: 15px;
+}
+
+/*RECIPE INGREDIENTS MODULE*/
+
+.recipe-ingredients {
+  background-image: url('http://i.imgur.com/Tbl1pWm.png');
+  background-color: #FFFFE5;
+  font-family: 'Patrick Hand', cursive;
+}
+
+/*RECIPE AUTHOR MODULE*/
+
+.recipe-author {
+  padding-top: 55px;
+  padding-bottom: 50px;
+  font-family: 'Halant', serif;
+  border-top: 15px solid;
+  border-image: url(https://files.slack.com/files-pri/T039KG69K-F04B91DDD/dash-border.png) 35 23 27 26 fill repeat stretch;
+}
+
+.button-like {
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  float: right;
+  font-style: sans serif;
+  width: 200px;
+  heigh: 50px;
+  text-align: center;
+}
+
+/*FOOTER MODULE*/
+
+footer {
+  font-family: 'Abel', sans-serif;
+  color: gray;
+  text-align: center;
+  border-top: 2px solid #D4D4D4;
+}
+
+
+
+

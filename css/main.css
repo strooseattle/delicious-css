@@ -1,32 +1,38 @@
 .banner {
-  margin-top: 50px;
-}
-
-.banner ul {
-  float: right;
-  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0;
 }
 
 .banner li {
   display: inline;
+  font-size: 24px;
 }
+
 
 .banner li:nth-of-type(6) {
   padding-right: 10px;
 }
 
-.logo img {
+
+
+
+.logo {
   float: left;
 }
 
+.logo img {
+  margin-right: 7px;
+}
+
 .logo h1 {
-  font-family: 'Qwigley', cursive;
-  font-size: 5.5rem;
-  margin-left: 45px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 60px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
+/*
 .logo h2 {
   color: gray;
   font-family: 'Roboto', sans-serif;
@@ -126,10 +132,6 @@ footer {
   text-align: center;
 }
 
-input[type=checkbox]:checked + label{
-  text-decoration: line-through;
-}
-
 input[type=checkbox] + label {
   text-decoration: none;
 }
@@ -139,3 +141,4 @@ input[type=checkbox] + label {
 }
 
 
+*/
