@@ -29,11 +29,11 @@ input[type=checkbox]:checked + label{
   text-decoration: line-through;
 }
 
-.button-like:hover {
+.recipe__author__button-like:hover {
   color: white;
   background-image: url('http://images.bwbx.io/cms/2014-02-14/0214-sour-patch-kids-630x420.jpg');
 }
 
-.print p:hover {
+.recipe__header__print p:hover {
   color: black;
 }
