@@ -30,11 +30,6 @@ input[type=checkbox]:checked + label{
 }
 
 .recipe__author__button-like:hover {
-  color: white;
-  font-family: 'Patrick Hand', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  height: 50px;
   background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/immune_boosting_foods_slideshow/photolibrary_rm_photo_of_slice_of_grapefruit.jpg');
 }
 

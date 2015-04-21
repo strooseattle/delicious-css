@@ -1,8 +1,17 @@
-.banner {
-  margin-top: 20px;
-  display:flex;
+.flex-row {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.banner {
+  margin-top: 20px;
   justify-content: space-between;
   align-content: center;
   align-items: baseline;
@@ -10,9 +19,6 @@
 }
 
 .banner__logo {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: no-wrap;
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-end;
@@ -34,9 +40,6 @@
 }
 
 .recipe__header {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
   align-items: center;
@@ -47,36 +50,12 @@
 }
 
 .recipe__header__print {
-  margin-bottom: -35px;
+  align-self: flex-end;
 }
 
 .recipe__ingredients {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 45px;
-    margin-top: 35px;
-}
-
-.recipe__author {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
-}
-
-.recipe__author__content {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
+  margin-bottom: 45px;
+  margin-top: 35px;
 }
 
 .recipe__author__content__text {
