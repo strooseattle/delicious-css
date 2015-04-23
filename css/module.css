@@ -26,6 +26,7 @@
   margin-top: 35px;
   border-top: 15px solid;
   border-image: url(https://files.slack.com/files-pri/T039KG69K-F04B91DDD/dash-border.png) 35 23 27 26 fill repeat stretch;
+  border-bottom: 0px;
 }
 
 .recipe__header h1 {
